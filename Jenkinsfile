@@ -4,7 +4,7 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
-                echo 'name branch: main'
+                echo 'name branch: branch-1'
             }
         }
         stage('Build') {
